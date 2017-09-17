@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="showList.css">
+  <link rel="stylesheet" href="miHome.css">
+  <script src="../jquery/dist/jquery.js"></script>
+  <script src="showList.js"></script>
+  <script src="../bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../dfrz-store.js"></script>
+
+  <style>
+    .ul-control li a{
+     float: left;
+      padding-left: 0!important;
+      padding-right: 0!important;
+    }
+    .ul-control li span{
+      float: left;
+      display: block;
+      padding: 15px 5px;
+      color: #9d9d9d;
+    }
+    .nav-p p{
+      margin: 15px 8px !important;
+    }
+    .nav-p p:first-child{
+      margin-right: 0!important;
+    }
+    .nav-p p a{
+      color: black;
+      font-size: 18px;
+    }
+    .picture-zhekou{
+      width: 60px;
+      height: 20px;
+      color: white;
+      background-color: red;
+      text-align: center;
+      margin: -4px auto
+    }
+    .picture-tianchong{
+      width: 60px;
+      height: 20px;
+      margin: -4px auto
+    }
+    .breadcrumb a{
+      color: #292b2c;
+    }
+    .nav span a{
+      color: black;
+    }
+.padding-left{
+  margin-left:-15px !important;
+}
+    .padding-right{
+      margin-right:-15px !important;
+    }
+.btn-control{
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 0;
+  color: red;
+  width: 140px;
+  height: 40px;
+}
+  </style>
+  <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+<body >
+<nav class="nav navbar navbar-inverse" style="border-radius: 0">
+  <div class="container">
+    <div class="row" >
+      <div class="col-lg-7 ">
+        <ul  class="navbar-nav nav ul-control ">
+          <li><a href="#" >小米商城</a><span >|</span></li>
+          <li><a href="#">MUI</a><span >|</span></li>
+          <li><a href="#">米聊</a><span >|</span></li>
+          <li><a href="#">游戏</a><span >|</span></li>
+          <li><a href="#">多看阅读</a><span >|</span></li>
+          <li><a href="#">云服务</a><span >|</span></li>
+          <li><a href="#">金融</a><span >|</span></li>
+          <li><a href="#">小米商场手机版</a><span >|</span></li>
+          <li><a href="#">问题反馈</a><span >|</span></li>
+          <li><a href="#">Select Region</a><span >|</span></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-5 ">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown" id="userName-parent">
+            <a id="userName" class="dropdown-toggle" href="../login/login.html" data-toggle="hover">登陆</a>
+            <div id="userMenu" class="dropdown-menu dropdown-menu-left list-group">
+
+            </div>
+
+          </li>
+          <li id="message" ><a href="#">注册</a></li>
+          <li id="orders"><a  href="#">消息通知</a></li>
+          <li id="cart-li" class="dropdown">
+            <a id="cart-btn" href="#" class="dropdown-toggle" data-toggle="hover">购物车<span id="num">(0)</span></a>
+            <table id="cart-table" class="dropdown-menu dropdown-menu-right" style="width:300px;color: black">
+              <tr>
+                <td><p style="padding: 27px">购物车中还没有商品，赶紧选购吧！</p></td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>
+<nav class="navbar">
+  <div class="container">
+    <div class="row " >
+      <div class="col-lg-2 ">
+        <!--<div class="navbar-brand">-->
+        <div class="navbar-header">
+          <img src="img/logo.jpg" alt="" style="height: 50px;width: 50px;">
+        </div>
+      </div>
+      <div class="col-lg-7 nav-p">
+        <p class="navbar-text"  data-toggle="collapse" data-target="#miPhoneText">
+          <a href="#" onclick="return false;" data-toggle="hover" id="miPhone">小米手机</a>
+        </p>
+        <p class="navbar-text" onclick="return false;"  data-toggle="collapse" data-target="#hongMiText">
+          <a href="#" data-toggle="hover" onclick="return false;" id="hongMi">红米</a></p>
+        <p class="navbar-text"><a href="#" onclick="return false;">平板.笔记本</a></p>
+        <p class="navbar-text"><a href="#">电视</a></p>
+        <p class="navbar-text"><a href="#">盒子.影音</a></p>
+        <p class="navbar-text"><a href="#">路由器</a></p>
+        <p class="navbar-text"><a href="#">智能硬件</a></p>
+        <p class="navbar-text"><a href="#">服务</a></p>
+        <p class="navbar-text"><a href="#">社区</a></p>
+      </div>
+      <div class="col-lg-3 form-inline" >
+        <div class="navbar-form navbar-right">
+          <div>
+            <div class="input-group has-feedback">
+              <input type="text" class="form-control input-group-lg">
+              <span class="input-group-addon btn"><img src="img/查询%20(1).svg" alt=""></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="collapse container-fluid location" id="miPhoneText" >
+      <div class="container">
+        <div class="row " >
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米6</p>
+                <p class="text-danger text-center">2499元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/max2_toubu.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米Max2</p>
+                <p class="text-danger text-center">1699元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/5x-2!160x110.jpg" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米5X</p>
+                <p class="text-danger text-center">1299元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xiaomiNOTE2-320-220!160x110.jpg" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米Note 2</p>
+                <p class="text-danger text-center">2799元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/MIX-320-220!160x110.jpg" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米MIX</p>
+                <p class="text-danger text-center">3499元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/5s-12!160x110.jpg" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米5s</p>
+                <p class="text-danger text-center">1999元起</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+    <div class="collapse container-fluid location" id="hongMiText" >
+      <div class="container">
+        <div class="row " >
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米6</p>
+                <p class="text-danger text-center">2499元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米Max2</p>
+                <p class="text-danger text-center">1699元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone">
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米5X</p>
+                <p class="text-danger text-center">1299元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone" style="border: none">
+
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米Note 2</p>
+                <p class="text-danger text-center">2799元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone" style="border: none">
+
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米MIX</p>
+                <p class="text-danger text-center">3499元起</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="thumbnail " style="border: none">
+              <div style="height: 30px">
+                <p class="imphone" >
+                  现货
+                </p>
+              </div>
+              <a href="#" ><img src="img/imPhone/xm6-320.png" alt=""></a>
+              <div class="caption">
+                <p class="text-center">小米5s</p>
+                <p class="text-danger text-center">1999元起</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</nav>
+  <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">选购电视.盒子</a></li>
+      </ol>
+   </div>
+    <div class="container" >
+      <div class="row">
+        <nav class="col-lg-12 navbar-nav">
+          <ul class="nav nav-justified ">
+            <li class="navbar-text"><a href="#" class="active">选购电视.盒子</a></li>
+            <li class="navbar-text"><a href="#">小米电视4 49英寸</a></li>
+            <li class="navbar-text"><a href="#">小米电视4 55英寸</a></li>
+            <li class="navbar-text"><a href="#">小米电视4 65英寸</a></li>
+            <li class="navbar-text"><a href="#">小米电视4A 32英寸</a></li>
+            <li class="navbar-text"><a href="#">小米电视4A 43英寸</a></li>
+            <li class="navbar-text"><a href="#" class="text-danger">查看全部 ></a></li>
+          </ul>
+        </nav>
+      </div>
+   </div>
+    <div class="container" style="height: 200px">
+      <div class="col-lg-12" style="background: url(img/11.jpg)no-repeat  center center;width:100%;
+    height:100%;">
+      </div>
+     </div>
+<div class="container" style="margin-top: 20px; ">
+  <div class="col-lg-6">
+      <div class="thumbnail padding-left">
+      <a href="#" ><img src="img/22.jpg" alt=""></a>
+        <div class="row">
+          <div class="col-lg-8">
+            <div style="margin: 10px;;">
+              <h3>小米电视4A 32英寸 <span style="color: red">1099元</span></h3>
+              <p style="font-size: 10px">64位四核处理器 / 人工智能系统PatchWall</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <button class=" btn-control" style="margin-top: 25px;">立即购买</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="thumbnail padding-right">
+      <a href="#" ><img src="img/33.jpg" alt=""></a>
+      <div class="row">
+        <div class="col-lg-8">
+          <div style="margin: 10px;;">
+            <h3>小米电视4A 32英寸 <span style="color: red">1099元</span></h3>
+            <p style="font-size: 10px">64位四核处理器 / 人工智能系统PatchWall</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <button class=" btn-control" style="margin-top: 25px;">立即购买</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class="container">
+  <div class="row" style="border-bottom:1px solid #e8e8e8;margin: 0 ">
+    <div class="col-lg-9">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="text-center border">
+            <span class="glyphicon glyphicon-wrench"></span> 预约维修服务
+          </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center border" style="margin: 15px auto"><span class="glyphicon glyphicon-repeat"></span> 7天无理由退货</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center border" style="margin: 15px auto"><span class="glyphicon glyphicon-repeat"></span> 15天免费换货</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center border" style="margin: 15px auto"><span class="glyphicon glyphicon-gift"></span> 满150元包邮</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="text-center border" style="border: none">
+        <span class="glyphicon glyphicon-map-marker"></span> 预约维修服务
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="row border2">
+        <div class="col-lg-2">
+          <h5>帮助中心</h5>
+          <p><a href="#">账户管理</a></p>
+          <p><a href="#">购物指南</a></p>
+          <p><a href="#">订单操作</a></p>
+        </div>
+        <div class="col-lg-2">
+          <h5>服务支持</h5>
+          <p><a href="#">售后政策</a></p>
+          <p><a href="#">自助服务</a></p>
+          <p><a href="#">相关下载</a></p>
+        </div>
+        <div class="col-lg-2">
+          <h5>线下门店</h5>
+          <p><a href="#">小米之家</a></p>
+          <p><a href="#">服务网点</a></p>
+          <p><a href="#">零售网点</a></p>
+        </div>
+        <div class="col-lg-2">
+          <h5>关于小米</h5>
+          <p><a href="#">了解小米</a></p>
+          <p><a href="#">加入小米</a></p>
+          <p><a href="#">联系我们</a></p>
+        </div>
+        <div class="col-lg-2">
+          <h5>关注我们</h5>
+          <p><a href="#">新浪微博</a></p>
+          <p><a href="#">小米部落</a></p>
+          <p><a href="#">官方微信</a></p>
+        </div>
+        <div class="col-lg-2 ">
+          <div style="border-right: 1px solid #e8e8e8;">
+            <h5>特色服务</h5>
+            <p><a href="#">F 码通道</a></p>
+            <p><a href="#">礼物码</a></p>
+            <p><a href="#">防伪查询</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="row border3">
+        <h3 class=" text-center" style="color: darkorange">400-100-5678</h3>
+        <p class=" text-center">周一至周日8:00-18:00</p>
+        <p class=" text-center">（仅收市话费）</p>
+      </div>
+    </div>
+
+  </div>
+
+
+</footer>
+<div class="" style="background-color: #e8e8e8">
+  <div class="container">
+    <div class="row" style="margin-top: 20px">
+      <div class="col-lg-7">
+        <div style="float: left;margin-right: 10px">
+          <img src="img/logo.jpg" alt="" style="width:60px" >
+        </div>
+        <div style="float: left">
+          <ul class="foot-ul">
+            <li><a href="#" >小米商城</a><span >|</span></li>
+            <li><a href="#">MUI</a><span >|</span></li>
+            <li><a href="#">米聊</a><span >|</span></li>
+            <li><a href="#">游戏</a><span >|</span></li>
+            <li><a href="#">多看阅读</a><span >|</span></li>
+            <li><a href="#">云服务</a><span >|</span></li>
+            <li><a href="#">金融</a><span >|</span></li>
+            <li><a href="#">小米商场手机版</a><span >|</span></li>
+            <li><a href="#">问题反馈</a><span >|</span></li>
+            <li><a href="#">Select Region</a><span >|</span></li>
+          </ul>
+          <div>
+            <p style="color: #adadad;font-size: 8px"> ©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</p>
+          </div>
+          <p style="color: #adadad;font-size: 8px">违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="row">
+          <div class="col-lg-3"><img src="img/footer/01.png" alt="" class="img-responsive"></div>
+          <div class="col-lg-3"><img src="img/footer/02.png" alt="" class="img-responsive"></div>
+          <div class="col-lg-3"><img src="img/footer/03.png" alt="" class="img-responsive"></div>
+          <div class="col-lg-3"><img src="img/footer/04.png" alt="" class="img-responsive"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center" style="font-size: 20px;margin: 20px 0">探索黑科技，小米为发烧而生</div>
+  </div>
+</div>
+</body>
+</html>

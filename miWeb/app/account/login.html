@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="login.php" method="post">
+  <div>
+    <label for="pw">
+      <strong>*</strong>密码：
+    </label>
+    <input id="pw" name="pw" type="password" placeholder="请输入密码">
+  </div>
+  <div>
+    <label for="username">
+      <strong>*</strong>用户名：
+    </label>
+    <input id="username" name="username" type="text" placeholder="请输入密码" value="admin">
+  </div>
+  <div>
+    <label for="auto">
+      <input id="auto" name="auto" type="checkbox" checked="checked" value="1" >记住密码
+    </label>
+
+  </div>
+  <input>
+    <input type="submit" value="登录">
+    <input type="button" value="注册">
+    <button type="button">注册</button>
+  </div>
+  <div>
+    <label for=""><input type="radio" name="sex" value="0"  >男</label>
+    <label for=""><input type="radio" name="sex" value="1" >女</label>
+    <label for=""><input type="radio" name="sex" value="2" checked >保密</label>
+  </div>
+  <div>
+    <select>
+      <option value="">请选择性别</option>
+      <option value="0">男</option>
+      <option value="1">女</option>
+      <option value="2" selected="selected">保密</option>
+    </select>
+  </div>
+  <textarea name="" id="" cols="30" rows="5"></textarea>
+</form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <style type="text/css">
+      #header{
+        background-color: #cccccc;
+      }
+      #menu{
+        width: 400px;
+        background-color: aqua;
+        height: 600px;
+        float:left;
+      }
+      #content{
+        float: left;
+        background-color: #eeeeee;
+        height: 600px;
+        width: 800px;
+      }
+      #footer{
+        clear:both;
+        background-color: black;
+        color: white;
+      }
+      li{
+        list-style: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--<div class="hero-unit">
+      <h1>'Allo, 'Allo!</h1>
+      <p>You now have</p>
+      <ul>
+        <li>HTML5 Boilerplate</li>
+        <li>jQuery</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>-->
+    <div id="header">
+      <img src="images/logo-white-bg.png" alt="">
+      <h1>我是头部</h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="login/login.html">商品</a></li>
+        <li>仓库</li>
+        <li>采购</li>
+        <li>财务</li>
+        <li>
+          系统
+          <ul>
+            <li>数据字典</li>
+            <li>用户</li>
+            <li>公司信息</li>
+            <li>权限</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="content"></div>
+    <div id="footer">
+      <h3>&copy;ldsdflsdlflsdflsdfl</h3>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

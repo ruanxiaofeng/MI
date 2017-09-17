@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "picture":"img/手机.png",
+    "name": "小米6 ",
+    "quantity": 1,
+    "price":49,
+    "key": "硅胶保护套红色"
+  },
+  {
+    "id": 2,
+    "picture":"img/电脑.png",
+    "name": "小米笔记本Air13 ",
+    "quantity": 1,
+    "price":5499,
+    "key": "i5 8G 256G 2G独"
+  },
+  {
+    "id": 3,
+    "picture":"img/鼠标.png",
+    "name": "小米便携式鼠标 ",
+    "quantity": 1,
+    "price":99,
+    "key": "银色"
+  }
+]

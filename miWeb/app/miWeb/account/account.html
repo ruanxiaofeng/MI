@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="account.css">
+  <script src="../jquery/dist/jquery.js"></script>
+  <script src="account.js"></script>
+  <script src="../bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../dfrz-store.js"></script>
+
+
+</head>
+<body>
+<div class="container container-con">
+  <!--  ====头部====  -->
+  <header>
+      <img src="img/logo.png" alt="">
+      <a href="#" id="out">退出</a>
+  </header>
+  <nav class="nav">
+    <ul class="nav" role="tablist">
+      <li  role="presentation" class="active"><a href="#showOne" aria-controls="home" role="tab" data-toggle="tab">帐号安全</a></li>
+      <li  role="presentation" ><a href="#showTwo" aria-controls="home" role="tab" data-toggle="tab">个人信息</a></li>
+      <li><a href="">绑定授权</a></li>
+      <li  role="presentation" ><a href="#showFour" aria-controls="home" role="tab" data-toggle="tab">小米服务</a></li>
+    </ul>
+    <div class="logo-area">
+       <div class="user-name">
+         <span id="userName">啦啦user-name</span>
+       </div>
+      <div class="logo-head">
+        <img src="img/头像.png" alt="">
+      </div>
+    </div>
+  </nav>
+   <!--====主体===-->
+  <div class="tab-content">
+    <div id="showOne" role="tabpanel" class="tab-pane active">
+      <div class="panel panel-default panel-con">
+        <div class="page-header tab">
+          <p style="float: left">安全等级</p>
+          <p>75 <span>分</span></p>
+          <div class="progress progress-con">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                 aria-valuemax="100" style="width: 75%;float: left;background-color: rgb(242,102,0)">
+            </div>
+          </div>
+          <p>存在 <span>1</span>项风险</p>
+        </div>
+        <div>
+
+        </div>
+        <div class="page-body" >
+          <ul>
+            <li>
+              <div class="size-logo">
+                <span class="glyphicon glyphicon-lock"></span>
+              </div>
+              <div class="size-text">
+                <p>帐号密码</p>
+                <p>用于保护帐号信息和登录安全</p>
+              </div>
+              <button id="xiugai" class="btn " type="button" data-toggle="modal" data-target="#passwordChange">修改</button>
+              <div class="modal fade" id="passwordChange" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">修改密码</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-group">
+                        <label>原密码</label>
+                        <input id="oldPassword" type="password" class="form-control" placeholder="输入原密码">
+                        <p ></p>
+                      </div>
+                      <div class="form-group">
+                        <label>新密码</label>
+                        <input id="newPassword1" type="password" class="form-control" placeholder="输入新密码">
+                        <input id="newPassword2" type="password" class="form-control" placeholder="重复新密码" style="margin-top:10px">
+                        <p>密码长度8~16位，其中数字，字母和符号至少包含两种</p>
+                      </div>
+                    </div>
+                    <div class="modal-footer btnPassword">
+                      <button id="btnPasswordSure" type="button" class="btn btn-default" >确定</button>
+                      <button id="btnPasswordCencel" type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="size-logo">
+                <span class="glyphicon glyphicon-envelope"></span>
+              </div>
+              <div class="size-text">
+                <p>安全邮箱72******6@</p>
+                <p>安全邮箱可以用于登录小米帐号，重置密码或其他安全验证</p>
+              </div>
+              <button class="btn " type="button">修改</button>
+            </li>
+            <li>
+              <div class="size-logo">
+                <span class="glyphicon glyphicon-phone"></span>
+              </div>
+              <div class="size-text">
+                <p>安全手机178******51</p>
+                <p>安全手机可以用于登录小米帐号，重置密码或其他安全验证</p>
+              </div>
+              <button class="btn " type="button">修改</button>
+              <button class="btn " type="button">添加</button>
+            </li>
+            <li>
+              <div class="size-logo">
+                <span class="glyphicon glyphicon-align-justify"></span>
+              </div>
+              <div class="size-text">
+                <p>密保问题 <span class="glyphicon glyphicon-exclamation-sign"></span><span>未设置</span></p>
+                <p style="color: rgb(242,102,0)">密保问题用于安全验证，建议立即设置</p>
+              </div>
+              <button class="btn " type="button">设置</button>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="panel panel-default panel-con">
+        <div class="page-header tab">
+          <p style="float: left">推荐使用</p>
+        </div>
+        <div class="panel-body advice">
+          <div class="size-logo">
+            <span class="glyphicon glyphicon-lock"></span>
+          </div>
+          <div class="size-text">
+            <p>小米安全令牌</p>
+            <p>在非信任设备上登录需要二次验证，防止他人恶意登录</p>
+          </div>
+          <button class="btn " type="button">开启</button>
+        </div>
+      </div>
+
+    </div>
+<!--
+      ===个人信息=    ==-->
+    <div id="showTwo" role="tabpanel" class="tab-pane ">
+      <div class="panel panel-default panel-con">
+        <div class="panel-body personal">
+          <div class="personal-left">
+            <div>
+              <div  class="text-center"><img src="img/头像.png" alt=""></div>
+               <p class="text-center"><a href="#">设置头像</a></p>
+            </div>
+          </div>
+          <div class="personal-right">
+            <ul >
+              <li>
+                <p style="float: left">基础资料</p>
+                <p style="float: right"><a href="#" id="edit-btn" data-toggle="modal" data-target="#edit"><span class="glyphicon glyphicon-pencil" ></span>编辑</a></p>
+                <!--=====
+                        ====模态框====    ====-->
+                <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" >编辑基础资料</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-inline">
+                          <div class="form-group" style="margin-top:20px">
+                            <label>姓名</label>
+                            <input id="editName" type="text" class="form-control" placeholder="输入名称">
+                          </div>
+                        </div>
+                        <p id="name-hint" style="margin-bottom:20px"></p>
+                        <div class="form-inline">
+                          <div class="form-group" >
+                            <!--<label>生日</label>
+                            <select class="form-control" name="" id="year">
+                              <option value="">年</option>
+                              <option value="">2017</option>
+                              <option value="">2016</option>
+                              <option value="">2015</option>
+                            </select>
+                            <select class="form-control" name="" id="month">
+                              <option value="">月</option>
+                              <option value="">12</option>
+                              <option value="">11</option>
+                              <option value="">10</option>
+                              <option value="">9</option>
+                              <option value="">8</option>
+                              <option value="">7</option>
+                              <option value="">6</option>
+                              <option value="">5</option>
+                            </select>
+                            <select  class="form-control" name="" id="day">
+                              <option value="">日</option>
+                              <option value="">1</option>
+                              <option value="">2</option>
+                              <option value="">3</option>
+                              <option value="">4</option>
+                              <option value="">5</option>
+                              <option value="">6</option>
+                              <option value="">7</option>
+                              <option value="">8</option>
+                            </select>-->
+                                <label class=" control-label" for="name">生日:</label>
+
+                                  <select class="form-control" name="sel1" id="sel1">
+                                    <option value="year" id="year-option"></option>
+                                  </select>
+
+
+                                  <select class="form-control"  name="sel2" id="sel2">
+                                    <option id="month-option" ></option>
+                                  </select>
+
+                                  <select class="form-control"  name="sel3" id="sel3">
+                                    <option id="day-option" ></option>
+                                  </select>
+                          </div>
+                        </div>
+                        <p id="result" style="margin-bottom: 20px"></p>
+                        <div class="form-inline">
+                          <div class="form-group" style="margin-bottom: 20px">
+                            <label>性别</label>
+                            <label>男</label>
+                              <input  type="radio" name="sex" id="men"  checked>
+                            <label>女</label><input type="radio" name="sex" id="women" >
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer btnPassword">
+                        <button id="editSure" type="button" class="btn btn-default" >确定</button>
+                        <button id="editCencel" type="button" class="btn btn-primary" data-dismiss="modal" style="color:white;">取消</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p>姓名：<span id="name"></span></p>
+              </li>
+              <li>
+                <p>生日：<span id="birthday"><span id="year"></span>-<span id="month"></span>-<span id="day"></span></span></p>
+              </li>
+              <li>
+                <p>性别：<span id="sex"></span></p>
+              </li>
+              <li>
+                <p>高级设置</p>
+              </li>
+              <li>
+                <p>银行卡</p>
+                <p><a href="#">管理</a></p>
+              </li>
+              <li>
+                <p>帐号地区： 中国</p>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!--==
+           ====小米服务====    ==-->
+    <div id="showFour" role="tabpanel" class="tab-pane ">
+      <div class="panel panel-default panel-con">
+        <div class="page-header tab">
+          <p >您的帐号可以登录以下服务</p>
+        </div>
+        <div class="panel-body service">
+          <ul class="service-left">
+            <li>
+              <div><a href="#"><img src="img/xiaomi.png" alt=""></a></div>
+              <div>
+                <p><a href="#">小米官网</a></p>
+                <p><a href="#">小米手机，红米手机，小米平板和小米电视官方正品销售网</a></p>
+              </div>
+            </li>
+            <li>
+              <div><a href="#"><img src="img/yun.png" alt=""></a></div>
+              <div>
+                <p><a href="#">云服务</a></p>
+                <p><a href="#">随时随地，管理你的所有设备和数据</a></p>
+
+              </div>
+            </li>
+            <li>
+              <div><a href="#"><img src="img/mi.png" alt=""></a></div>
+              <div>
+                <p><a href="#">应用商店</a></p>
+                <p><a href="#">发现最新最热最好玩的应用</a></p>
+              </div>
+            </li>
+
+            <li>
+              <div><a href="#"><img src="img/xiaomi.png" alt=""></a></div>
+              <div>
+                <p><a href="#">小米官网</a></p>
+                <p><a href="#">小米手机，红米手机，小米平板和小米电视官方正品销售网</a></p>
+              </div>
+            </li>
+            <li>
+              <div><a href="#"><img src="img/yun.png" alt=""></a></div>
+              <div>
+                <p><a href="#">云服务</a></p>
+                <p><a href="#">随时随地，管理你的所有设备和数据</a></p>
+
+              </div>
+            </li>
+
+          </ul>
+          <ul class="service-right">
+            <li>
+              <div><a href="#"><img src="img/xiaomi.png" alt=""></a></div>
+              <div>
+                <p><a href="#">小米官网</a></p>
+                <p><a href="#">小米手机，红米手机，小米平板和小米电视官方正品销售网</a></p>
+              </div>
+            </li>
+            <li>
+              <div><a href="#"><img src="img/yun.png" alt=""></a></div>
+              <div>
+                <p><a href="#">云服务</a></p>
+                <p><a href="#">随时随地，管理你的所有设备和数据</a></p>
+
+              </div>
+            </li>
+            <li>
+              <div><a href="#"><img src="img/mi.png" alt=""></a></div>
+              <div>
+                <p><a href="#">应用商店</a></p>
+                <p><a href="#">发现最新最热最好玩的应用</a></p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class="container-fluid">
+  <ul>
+    <li><a href="#">简体</a></li>
+    <li><a href="#">繁体</a></li>
+    <li><a href="#">English</a></li>
+    <li><a href="#">常见问题</a></li>
+  </ul>
+  <div class="text-center">
+    <span>小米公司版权所有-京ICP备10046444-</span>
+    <img src="img/gongan.png" alt="">
+    <span>京公网安备11010802020134号-京ICP证110507号</span>
+  </div>
+
+</footer>
+<script>
+  //生成日期
+  function creatDate()
+  {
+    //生成1900年-2100年
+    for(var i = 2016; i >= 1950; i--)
+    {
+      //创建select项
+      var option = document.createElement('option');
+      option.setAttribute('value',i);
+      option.innerHTML = i;
+      sel1.appendChild(option);
+    }
+    //生成1月-12月
+    for(var i = 1; i <=12; i++){
+      var option1 = document.createElement('option');
+      option1.setAttribute('value',i);
+      option1.innerHTML = i;
+      sel2.appendChild(option1);
+    }
+    //生成1日—31日
+    for(var i = 1; i <=31; i++){
+      var option2 = document.createElement('option');
+      option2.setAttribute('value',i);
+      option2.innerHTML = i;
+      sel3.appendChild(option2);
+    }
+  }
+  creatDate();
+  //保存某年某月的天数
+  var days;
+
+  //年份点击 绑定函数
+  sel1.onclick = function()
+  {
+    //月份显示默认值
+    sel2.options[0].selected = true;
+    //天数显示默认值
+    sel3.options[0].selected = true;
+  }
+  //月份点击 绑定函数
+  sel2.onclick = function()
+  {
+    //天数显示默认值
+    sel3.options[0].selected = true;
+    //计算天数的显示范围
+    //如果是2月
+    if(sel2.value == 2)
+    {
+      //判断闰年
+      if((sel1.value % 4 === 0 && sel1.value % 100 !== 0) || sel1.value % 400 === 0)
+      {
+        days = 29;
+      }
+      else
+      {
+        days = 28;
+      }
+      //判断小月
+    }else if(sel2.value == 4 || sel2.value == 6 ||sel2.value == 9 ||sel2.value == 11){
+      days = 30;
+    }else{
+      days = 31;
+    }
+
+    //增加或删除天数
+    //如果是28天，则删除29、30、31天(即使他们不存在也不报错)
+    if(days == 28){
+      sel3.remove(31);
+      sel3.remove(30);
+      sel3.remove(29);
+    }
+    //如果是29天
+    if(days == 29){
+      sel3.remove(31);
+      sel3.remove(30);
+      //如果第29天不存在，则添加第29天
+      if(!sel3.options[29]){
+        sel3.add(new Option('29','29'),null)
+      }
+    }
+    //如果是30天
+    if(days == 30){
+      sel3.remove(31);
+      //如果第29天不存在，则添加第29天
+      if(!sel3.options[29]){
+        sel3.add(new Option('29','29'),null)
+      }
+      //如果第30天不存在，则添加第30天
+      if(!sel3.options[30]){
+        sel3.add(new Option('30','30'),null)
+      }
+    }
+    //如果是31天
+    if(days == 31){
+      //如果第29天不存在，则添加第29天
+      if(!sel3.options[29])
+      {
+        sel3.add(new Option('29','29'),null)
+      }
+      //如果第30天不存在，则添加第30天
+      if(!sel3.options[30])
+      {
+        sel3.add(new Option('30','30'),null)
+      }
+      //如果第31天不存在，则添加第31天
+      if(!sel3.options[31])
+      {
+        sel3.add(new Option('31','31'),null)
+      }
+    }
+  }
+
+  //结果显示 设置好日期时间后 弹窗通知
+/*  box.onclick = function()
+  {
+    //当年、月、日都已经为设置值时
+    if(sel1.value !='year' && sel2.value != 'month' && sel3.value !='day')
+    {
+      alert("日期时间已经设定好");
+    }
+  }*/
+
+</script>
+</body>
+</html>

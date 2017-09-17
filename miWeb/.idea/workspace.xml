@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efdc9622-733b-4ca9-a73e-c0ddd7407f05" name="Default" comment="" />
+    <ignored path="demo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="personalCenter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="980" column="17" selection-start-line="980" selection-start-column="17" selection-end-line="980" selection-end-column="17" />
+              <folding>
+                <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#11520#17747#0" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1505651312138" expanded="false" signature="11755:11777" ph="..." />
+                <marker date="1505651312138" expanded="false" signature="14850:14872" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personalCenter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4028">
+              <caret line="212" column="27" selection-start-line="205" selection-start-column="4" selection-end-line="212" selection-end-column="27" />
+              <folding>
+                <marker date="1505647618345" expanded="true" signature="413:425" ph="..." />
+                <marker date="1505647618345" expanded="true" signature="1845:1858" ph="..." />
+                <marker date="1505647618345" expanded="true" signature="2251:2264" ph="..." />
+                <marker date="1505647618345" expanded="true" signature="3570:3580" ph="..." />
+                <marker date="1505647618345" expanded="true" signature="3921:3931" ph="..." />
+                <marker date="1505647618345" expanded="true" signature="4802:4812" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/miWeb/register/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/miWeb/register/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <folding>
+                <marker date="1505541492373" expanded="true" signature="450:497" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="667:714" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="878:925" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="1126:1173" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="1400:1447" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="1677:1724" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="2941:2962" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="3628:3649" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="3890:3900" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="4018:4031" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="5482:5492" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="5658:5668" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="5764:5776" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="5930:5940" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="6266:6278" ph="..." />
+                <marker date="1505541492373" expanded="true" signature="6406:6416" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/login.html" />
+        <option value="$PROJECT_DIR$/app/table.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/account/login.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/miWeb/注册/register.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/register/小米账号注册.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/register/afrz-store.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/register/register-setPassword.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/styles.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/js-login.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/personal center/personal.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/personal center/personalCenter.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/帐号/account.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/account/account.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/register/register.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/register/register.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/loginSimple.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/loginSimple.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/login.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/login.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/login.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter/miHome.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter01010/personalCenter.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter/01.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/01/personalCenter.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/01/personalCenter.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/dfrz-store.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter/deliveryAddress.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/00personalCenter/deliveryAddress.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/miHome/miHome.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/miHome/miHome.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/miHome/miHome.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/login/loginSimple.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/showList/showList.css" />
+        <option value="$PROJECT_DIR$/app/miWeb/showList/showList.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/showList/showList.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/register/register.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/account/account.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/account/account.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/00personalCenter/personalCenter.js" />
+        <option value="$PROJECT_DIR$/app/miWeb/00personalCenter/address.html" />
+        <option value="$PROJECT_DIR$/app/miWeb/00personalCenter/personalCenter.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\miWeb\app\miWeb\00personalCenter" />
+      <recent name="D:\miWeb\app\miWeb\login\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\miWeb\app\miWeb\00personalCenter" />
+      <recent name="D:\miWeb\app\miWeb\showList\img" />
+      <recent name="D:\miWeb\app\miWeb\showList" />
+      <recent name="D:\miWeb\app\miWeb" />
+      <recent name="D:\miWeb\app\miWeb\personalCenter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.register.html">
+    <configuration default="false" name="account.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miWeb/app/miWeb/account/account.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="miHome.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miWeb/app/miWeb/miHome/miHome.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="personalCenter.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miWeb/app/miWeb/personalCenter/personalCenter.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="register.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miWeb/app/miWeb/register/register.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.account.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.miHome.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.personalCenter.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.register.html" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.register.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.account.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.personalCenter.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.miHome.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efdc9622-733b-4ca9-a73e-c0ddd7407f05" name="Default" comment="" />
+      <created>1499830905149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499830905149</updated>
+      <workItem from="1499831226349" duration="13978000" />
+      <workItem from="1499909601707" duration="138000" />
+      <workItem from="1499914345343" duration="19000" />
+      <workItem from="1499914867858" duration="20000" />
+      <workItem from="1504859058434" duration="42000" />
+      <workItem from="1504920127837" duration="439000" />
+      <workItem from="1504920645071" duration="23785000" />
+      <workItem from="1504962080831" duration="1201000" />
+      <workItem from="1505004420960" duration="27181000" />
+      <workItem from="1505052446523" duration="3054000" />
+      <workItem from="1505132735315" duration="1178000" />
+      <workItem from="1505196249925" duration="2797000" />
+      <workItem from="1505210137083" duration="9535000" />
+      <workItem from="1505283776285" duration="16472000" />
+      <workItem from="1505356865091" duration="21000" />
+      <workItem from="1505390253718" duration="4285000" />
+      <workItem from="1505398758452" duration="599000" />
+      <workItem from="1505438197220" duration="22690000" />
+      <workItem from="1505473737762" duration="21130000" />
+      <workItem from="1505523428577" duration="4951000" />
+      <workItem from="1505539202520" duration="14009000" />
+      <workItem from="1505642081347" duration="5582000" />
+      <workItem from="1505651348707" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="173191000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14128843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17823344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.js</url>
+          <line>223</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/0101.js" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personal center/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/小米账号注册.css" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/小米账号注册.html" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/register-setPassword.html" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/cart.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/cart.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/miHome.js" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/login/loginSimple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/login/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter01010/personalCenter.js" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/01.html" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/01/personalCenter.html" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/01/personalCenter.js" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/img/carousel/xm.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/img/imPhone/5s-12!160x110.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/dfrz-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/miHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/login/loginSimple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/02/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/miHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/showList/showList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" column="89" selection-start-line="78" selection-start-column="89" selection-end-line="78" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/showList/showList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/showList/miHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/miHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/miHome/miHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="1182" column="0" selection-start-line="1182" selection-start-column="0" selection-end-line="1301" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/showList/showList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="384" column="24" selection-start-line="384" selection-start-column="24" selection-end-line="384" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/login/loginSimple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/country.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/deliveryAddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="887" column="4" selection-start-line="887" selection-start-column="4" selection-end-line="887" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3363">
+          <caret line="553" column="24" selection-start-line="553" selection-start-column="24" selection-end-line="553" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/dfrz-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/account/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="238" column="125" selection-start-line="238" selection-start-column="125" selection-end-line="238" selection-end-column="125" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#7669#9324#0" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/account/account.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4351">
+          <caret line="229" column="1" selection-start-line="229" selection-start-column="1" selection-end-line="229" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/account/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
+          <folding>
+            <element signature="e#3978#4058#0" expanded="false" />
+            <element signature="e#4093#4309#0" expanded="false" />
+            <marker date="1505551095497" expanded="true" signature="589:599" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="1280:1290" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="1715:1725" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="1970:1980" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="2247:2257" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="2438:2448" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="2729:2739" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="4019:4033" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="4220:4240" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="4642:4662" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="4754:4774" ph="..." />
+            <marker date="1505551095497" expanded="true" signature="4914:4934" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="144" column="23" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4237">
+          <caret line="223" column="38" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/register/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <marker date="1505541492373" expanded="true" signature="450:497" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="667:714" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="878:925" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="1126:1173" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="1400:1447" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="1677:1724" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="2941:2962" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="3628:3649" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="3890:3900" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="4018:4031" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="5482:5492" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="5658:5668" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="5764:5776" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="5930:5940" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="6266:6278" ph="..." />
+            <marker date="1505541492373" expanded="true" signature="6406:6416" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/00personalCenter/localStage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/00personalCenter/deliveryAddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5092">
+          <caret line="1127" column="7" selection-start-line="1127" selection-start-column="7" selection-end-line="1127" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/00personalCenter/address.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/00personalCenter/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4028">
+          <caret line="212" column="27" selection-start-line="205" selection-start-column="4" selection-end-line="212" selection-end-column="27" />
+          <folding>
+            <marker date="1505647618345" expanded="true" signature="413:425" ph="..." />
+            <marker date="1505647618345" expanded="true" signature="1845:1858" ph="..." />
+            <marker date="1505647618345" expanded="true" signature="2251:2264" ph="..." />
+            <marker date="1505647618345" expanded="true" signature="3570:3580" ph="..." />
+            <marker date="1505647618345" expanded="true" signature="3921:3931" ph="..." />
+            <marker date="1505647618345" expanded="true" signature="4802:4812" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/miWeb/personalCenter/personalCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="980" column="17" selection-start-line="980" selection-start-column="17" selection-end-line="980" selection-end-column="17" />
+          <folding>
+            <element signature="n#nav#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#nav#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#11520#17747#0" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1505651312138" expanded="false" signature="11755:11777" ph="..." />
+            <marker date="1505651312138" expanded="false" signature="14850:14872" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

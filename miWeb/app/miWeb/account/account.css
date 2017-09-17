@@ -1,0 +1,335 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+.container-con{
+padding: 0 90px;
+}
+header {
+  padding: 60px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+header a{
+  text-decoration:none;
+  color: #888888;
+  font-size: 14px;
+  line-height: 31px;
+}
+nav ul{
+padding: 0;
+  float: left;
+}
+nav ul li{
+  list-style: none;
+  float: left;
+  margin: 0 30px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.user-name {
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-right: 130px;
+}
+.logo-area{
+  position: relative;
+}
+.logo-head {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -30px;
+  margin-right: 20px;
+  z-index: 100;
+  background-color: white;
+  border-radius: 50%;
+}
+.logo-head img{
+  width: 100px;
+  height: 100px;
+}
+.safe{
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  background-color: white;
+  padding: 40px 30px;
+}
+.tab{
+  height: 80px;
+  padding-top: 40px;
+
+}
+ .tab p:nth-of-type(1){
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+.tab p:nth-of-type(2){
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(242,102,0);
+  float: left;
+  margin-left: 10px;
+}
+.tab p:nth-of-type(2) span{
+  font-size: 12px;
+  color: #c0c0c0;
+}
+.tab p:nth-of-type(3) span{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(242,102,0);
+}
+.tab p:nth-of-type(3){
+  font-size: 12px;
+  color: #c0c0c0;
+  float: left;
+  margin-left: 10px;
+}
+.progress-con{
+  width: 400px;
+  height: 4px;
+  border-radius: 0;
+  float: left;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.circle{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid #888888;
+  border-radius: 50%;
+}
+.line{
+  border-top: 1px solid #c0c0c0;
+  margin-top: 20px;
+}
+.panel{
+  border-radius: 8px;
+  padding:0 30px;
+  margin-top: 20px;
+}
+.page-header{
+  margin: 0;
+}
+.page-header-con{
+  padding: 30px 0;
+  height: 105px;
+}
+
+.size-logo{
+  font-size: 25px;
+  color: rgb(242,102,0);
+  float: left;
+}
+.size-text{
+  float: left;
+  margin-left: 20px;
+}
+.size-text p span{
+  font-size: 10px;
+  color: rgb(242,102,0);
+}
+.size-text p:nth-of-type(1){
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.size-text p:nth-of-type(2){
+  color: #c0c0c0;
+  margin-bottom: 0;
+}
+.page-body{
+  height: 420px;
+}
+.page-body ul li button{
+  float: right;
+}
+.page-body ul{
+  padding: 0;
+}
+.page-body ul li{
+  height: 105px;
+  list-style: none;
+  padding: 30px 0;
+  border-bottom: 1px solid  #eee;
+}
+.page-body ul li:nth-of-type(4){
+  border: none;
+}
+.page-body button{
+  border-radius: 0;
+  background-color: white;
+  width: 120px;
+  border: 1px solid #eee;
+  margin-left: 15px;
+}
+.advice {
+  padding:30px 0;
+  height: 105px;
+}
+.advice button{
+  border-radius: 0;
+  background-color: white;
+  width: 120px;
+  border: 1px solid #eee;
+  margin-left: 15px;
+  float: right;
+}
+
+.personal{
+  height: 450px;
+}
+.personal-left {
+  float: left;
+  width: 320px;
+}
+.personal-left  div{
+  margin: 110px auto 0;
+}
+.personal-left img{
+  width: 100px;
+  height: 100px;
+}
+.personal-left a{
+  text-decoration: none!important;
+}
+.personal-right{
+  margin-top: 20px;
+  float: left;
+  width: 578px;
+
+}
+.personal-right ul{
+  padding: 0;
+}
+.personal-right ul li{
+ height:50px;
+  list-style: none;
+  border-bottom: 2px solid #eee;
+  padding: 15px 20px ;
+}
+.personal-right ul li p{
+  margin: 0;
+}
+.personal-right ul li:first-child p:first-child{
+   color: black;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+.personal-right ul li:first-child p:last-child{
+  float: right;
+}
+.personal-right ul li a{
+  color:#2b81af;
+  text-decoration: none!important;
+}
+.personal-right ul li:nth-of-type(5) p{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.personal-right ul li:nth-of-type(6) p:first-child{
+float: left;
+}
+.personal-right ul li:nth-of-type(6) p:last-child{
+  float: right;
+}
+
+.service{
+  height: 400px;
+}
+.service-left{
+  width: 50%;
+  float: left;
+}
+.service-right{
+  float: right;
+}
+.service ul{
+  padding-left: 0;
+}
+.service ul li{
+  list-style: none;
+  height: 40px;
+  margin-top: 30px;
+}
+.service ul li div{
+  float: left;
+}
+.service ul li a{
+  text-decoration: none;
+}
+.service ul li div:nth-child(2){
+  margin-left: 20px;
+}
+.service ul li div p:first-child{
+  margin-bottom: 0;
+
+}
+.service ul li div p:first-child a{
+  font-weight: bold;
+  color: black;
+}
+.service ul li div p:nth-child(2) a{
+  color:#9d9d9d;
+}
+
+        /*====  页脚  ====*/
+footer{
+  background-color: #f9f9f9;
+  padding-bottom: 30px;
+}
+footer ul{
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li a{
+  border-right: 1px solid ;
+  text-decoration: none;
+  color: #888888;
+  padding: 0 10px;
+  font-size: 12px;
+}
+footer ul li:last-child a{
+  border: none;
+}
+footer div span{
+  color: #888888;
+  font-size: 12px;
+}
+.modal-dialog{
+  width: 400px;
+}
+.modal-header .close{
+  width: 23px;
+  border: none;
+}
+.modal-content{
+   padding: 10px 20px;
+}
+.modal-body{
+  padding: 20px 30px;
+}
+.modal-footer{
+  display: flex;
+  justify-content: center;
+}
+.modal-footer button:first-child{
+  background-color: rgb(242,102,0);
+  color: white;
+}
+.modal-footer button:last-child{
+  color: #888888;
+}
